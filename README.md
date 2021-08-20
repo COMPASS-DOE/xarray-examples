@@ -10,6 +10,6 @@ Now launch an instance of jupyterlab from the command line:
 
     jupyter lab
 
-A browser window will start up, and you can navigate to the notebooks you want to work with.
+A browser window will start up, and you can navigate to the notebooks you want to work with. For the `Simple xarray example.ipynb` notebook, you will need to download the sample data by clicking the tag above (third icon from the left), unzip, and move the zarr directory to the same folder as the notebook.
 
 You may want to start up a new dask cluster first, by clicking the dask icon to the left, and selecting `+ new`. You will then need to replace the cell that spawns the client by deleting the appropriate cell (usually the second cell, below the imports), and clicking the `<>` button in the newly spawned cluster.  
