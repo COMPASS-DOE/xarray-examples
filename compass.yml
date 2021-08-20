@@ -21,3 +21,6 @@ dependencies:
   - zarr
   - nodejs
   - dask-labextension
+  - pip
+  - pip:
+     - git+git://github.com/hetland/xroms
